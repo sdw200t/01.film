@@ -1,0 +1,29 @@
+html {
+  background-color: #FAF7F2;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 50px auto;
+  width: 560px;
+}
+
+.card-body-stars {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-body-stars > li {
+  display: inline-block;
+  cursor: pointer;
+}
